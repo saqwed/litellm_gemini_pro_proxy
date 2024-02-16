@@ -12,7 +12,7 @@ Because Google Gemini Pro provides free api key, so we can use it as a proxy to 
 - build docker image
 
 ```bash
-docker build . -t litellm_gemini_pro_proxy:latest
+docker build . -t ghcr.io/saqwed/litellm_gemini_pro_proxy:latest
 ```
 
 ## Step 1.2: Use pre-built image
