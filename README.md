@@ -5,7 +5,6 @@ Because Google Gemini Pro provides free api key, so we can use it as a proxy to 
 ## Prerequisites
 
 - docker and docker-compose installed.
-- Python version should >= 3.10 for google-generativeai
 
 ## Step 1.1: docker image build
 
@@ -31,6 +30,13 @@ The file should looks like below example:
 
 ```
 GEMINI_API_KEY=your GEMINI PRO API key
+```
+
+- If you need to setup proxy, you can add
+
+```
+http_proxy=your proxy address
+https_proxy=your proxy address
 ```
 
 ## Step 3: Launch it
